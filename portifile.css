@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+    margin: 0;
+    } .logo{
+    
+    flex: 20%;
+    text-align: center;
+    }
+    .logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    }
+    
+    .navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    }.menu{
+        flex: 70%;
+        text-align: right;
+        padding: 20px;
+        }
+        .menu a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 16px;
+        }
+        .menu a:hover{
+        color: pink;
+        border-top: 4px solid rgb(255, 215, 215);
+        }#botao{
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            }
+            #botao:hover{
+            border: none;
+            background: rgb(0, 0, 0);
+            color: rgb(229, 190, 190)
+            }.principal{
+                display: flex;
+                flex-flow: row wrap;
+                height: 300px;
+                background: rgb(0, 0, 0);
+                }
+                .texto{
+                margin-left: 10%;
+                flex: 40%;
+                border: 0px solid rgb(0, 0, 0);
+                }.texto h2{
+                    font-weight: 900;
+                    font-size: 20px;
+                    color: rgb(225, 175, 204);
+                    padding: 0;
+                    margin: 0;
+                    }
+                    .imagem{
+                    display: flex;
+                    flex-flow: row wrap;
+                    margin-right: 10%;
+                    flex: 40%;
+                    border: 0px solid rgb(0, 0, 0);
+                    justify-content:left;
+                    align-items:left;
+                    }
+                    body{
+                        background-color: black;
+                    }
+                    .texto{
+                        margin-left: 10%;
+                        flex: 40%;
+                        border: 0px solid rgb(0, 0, 0);
+                        }.texto h2{
+                            font-weight: 900;
+                            font-size: 20px;
+                            color: rgb(225, 175, 204);
+                            padding: 0;
+                            margin: 0;
+                            }footer{
+                                margin-top: 80px;
+                                height: 250px;
+                                background-image: linear-gradient(rgb(0, 0, 0), rgba(248, 119, 192, 0.813));
+                                text-align: center;
+                                }
